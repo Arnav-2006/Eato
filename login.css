@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700&family=Montserrat:wght@400;600&display=swap');
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(120deg, #121212 0%, #0d0b36 60%, #0aefff 100%);
+  background-repeat: no-repeat;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.login-container {
+  background: rgba(24, 26, 40, 0.65);
+  border-radius: 24px;
+  box-shadow: 0 4px 32px 0 #0aefff88, 0 2px 8px 0 #000a;
+  padding: 3rem 2.3rem 2rem 2.3rem;
+  max-width: 410px;
+  width: 96vw;
+  backdrop-filter: blur(16px) saturate(160%);
+  border: 1.5px solid #222a;
+  margin: 2.5rem 0;
+  position: relative;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 1.6rem;
+  color: #0aefff;
+  font-family: 'Orbitron', 'Montserrat', sans-serif;
+  font-size: 2rem;
+  letter-spacing: 1.8px;
+  font-weight: 700;
+  text-shadow: 0 2px 16px #0aefff44;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #0aefff 0%, #3a47d5 100%);
+  color: #181a28;
+  font-size: 1.08rem;
+  font-family: 'Orbitron', 'Montserrat', sans-serif;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-bottom: 1.3rem;
+  box-shadow: 0 2px 12px #0aefff55;
+  cursor: pointer;
+  transition: background 0.18s, box-shadow 0.18s, color 0.18s;
+}
+.google-btn img {
+  width: 26px;
+  height: 26px;
+  filter: drop-shadow(0 0 2px #fff);
+}
+.google-btn:hover {
+  background: linear-gradient(90deg, #3a47d5 0%, #0aefff 100%);
+  color: #fff;
+  box-shadow: 0 4px 24px #0aefff88;
+}
+
+.divider {
+  text-align: center;
+  margin: 1.2rem 0 1.2rem 0;
+  position: relative;
+}
+.divider span {
+  background: rgba(24, 26, 40, 0.8);
+  padding: 0 1rem;
+  color: #0aefffcc;
+  font-size: 1.03rem;
+  position: relative;
+  z-index: 1;
+  letter-spacing: 1px;
+}
+.divider:before {
+  content: "";
+  display: block;
+  border-top: 1.5px solid #0aefff55;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.input-group {
+  margin-bottom: 1.1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group label {
+  margin-bottom: 0.4rem;
+  color: #0aefff;
+  font-size: 1.02rem;
+  font-weight: 600;
+  font-family: 'Orbitron', 'Montserrat', sans-serif;
+  letter-spacing: 0.7px;
+}
+
+.input-group input {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.06rem;
+  background: rgba(22, 24, 38, 0.7);
+  color: #e7e7e7;
+  box-shadow: 0 1px 8px #0aefff08;
+  outline: 1.5px solid #23254e;
+  transition: outline 0.2s, background 0.2s;
+}
+
+.input-group input:focus {
+  outline: 2px solid #0aefff;
+  background: rgba(10, 239, 255, 0.06);
+  color: #fff;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 0.9rem;
+  background: linear-gradient(90deg, #0aefff 0%, #3a47d5 100%);
+  color: #181a28;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.18rem;
+  font-family: 'Orbitron', 'Montserrat', sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
+  margin-top: 0.6rem;
+  letter-spacing: 1.2px;
+  box-shadow: 0 2px 16px #0aefff55;
+}
+.login-btn:hover {
+  background: linear-gradient(90deg, #3a47d5 0%, #0aefff 100%);
+  color: #fff;
+  box-shadow: 0 4px 32px #0aefff88;
+}
+
+.signup-link {
+  text-align: center;
+  margin-top: 1.4rem;
+  color: #b9eaff;
+  font-size: 1.01rem;
+  letter-spacing: 0.5px;
+  font-family: 'Montserrat', sans-serif;
+}
+.signup-link a {
+  color: #0aefff;
+  text-decoration: none;
+  font-weight: 700;
+  transition: color 0.18s;
+}
+.signup-link a:hover {
+  color: #fff;
+  text-shadow: 0 2px 8px #0aefff88;
+}
+
+@media (max-width: 500px) {
+  .login-container {
+    padding: 1.2rem 0.5rem;
+    border-radius: 12px;
+  }
+  .login-form h2 {
+    font-size: 1.25rem;
+  }
+}
