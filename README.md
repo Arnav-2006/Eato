@@ -2,7 +2,7 @@
 
 # Futuristic Food Ordering App
 
-A modern, visually stunning food ordering website inspired by Zomato.  
+A modern, visually stunning food ordering website inspired by Zomato  
 This project uses only **HTML** and **CSS** (no backend), with a glassmorphism + neon design for a futuristic look.
 
 Features
