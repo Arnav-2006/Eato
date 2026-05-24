@@ -1,11 +1,11 @@
 # Eato
 
-# Futuristic Food Ordering App 🍕🍔
+# Futuristic Food Ordering App
 
 A modern, visually stunning food ordering website inspired by Zomato.  
 This project uses only **HTML** and **CSS** (no backend), with a glassmorphism + neon design for a futuristic look.
 
-🚀 Features
+Features
 
 - Futuristic, glassmorphism UI with neon accents
 - Clean navigation bar
@@ -15,7 +15,7 @@ This project uses only **HTML** and **CSS** (no backend), with a glassmorphism +
 - Responsive design for mobile and desktop
 - No frameworks or backend required
 
-🛠️ Tech Stack
+Tech Stack
 
 - HTML5
 - CSS3 (with Google Fonts and glass/neon effects)
